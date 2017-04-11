@@ -7,7 +7,7 @@ php:
 
 install:
   - phpenv config-rm xdebug.ini
-  - export PATH="$HOME/.config/composer/vendor/bind:$PATH"
+  - export PATH="$HOME/.config/composer/vendor/bin:$PATH"
   - composer global require drupal/coder
   - phpcs --config-set installed_paths ~/.config/composer/vendor/drupal/coder/coder_sniffer
 
