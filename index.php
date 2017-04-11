@@ -1,4 +1,9 @@
 <?php
 
-echo 'test'
-echo 'test'
+/**
+ * @file 
+ * File document.
+ */
+
+echo 'test';
+echo 'test';
